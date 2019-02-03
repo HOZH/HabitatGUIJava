@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="644.0" prefWidth="606.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.PaymentPage">
+    <children>
+        <Label layoutX="38.0" layoutY="71.0" text="shipping address" />
+        <Label layoutX="46.0" layoutY="115.0" text="billing address" />
+        <Label layoutX="38.0" layoutY="206.0" text="credit card number" />
+        <Label layoutX="72.0" layoutY="261.0" text="pin" />
+        <TextField fx:id="shipping" editable="false" layoutX="180.0" layoutY="66.0" />
+        <TextField fx:id="billing" editable="false" layoutX="180.0" layoutY="110.0" />
+        <TextField fx:id="creditCard" layoutX="180.0" layoutY="201.0" />
+        <TextField fx:id="pin" layoutX="174.0" layoutY="256.0" />
+        <Button fx:id="changeButton" layoutX="118.0" layoutY="147.0" mnemonicParsing="false" onAction="#change" text="enable changing shipping/billing address" />
+        <Button fx:id="completeButton" layoutX="378.0" layoutY="560.0" mnemonicParsing="false" onAction="#complete" text="complete" />
+        <Button fx:id="returnButton" layoutX="82.0" layoutY="560.0" mnemonicParsing="false" onAction="#returnHomePage" text="return" />
+        <Label layoutX="65.0" layoutY="31.0" />
+        <Label fx:id="subtotalLabel" layoutX="207.0" layoutY="384.0" />
+        <Label fx:id="taxLabel" layoutX="215.0" layoutY="424.0" />
+        <Label fx:id="totalLabel" layoutX="211.0" layoutY="461.0" />
+        <Label fx:id="shippingLabel" layoutX="207.0" layoutY="354.0" />
+        <Label layoutX="57.0" layoutY="346.0" text="shipping fee:" />
+        <Label layoutX="55.0" layoutY="384.0" text="subtotal:" />
+        <Label layoutX="61.0" layoutY="424.0" text="tax:" />
+        <Label layoutX="64.0" layoutY="470.0" text="Total:" />
+    </children>
+</AnchorPane>

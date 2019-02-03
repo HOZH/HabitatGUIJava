@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="habitatJavaFxDemo">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/habitatJavaFxDemo_jar/habitatJavaFxDemo.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9"
+            fx:controller="sample.controller.CheckitemsPage">
+    <children>
+        <Label layoutX="202.0" layoutY="40.0" text="check items"/>
+        <ListView fx:id="theListView" layoutX="45.0" layoutY="77.0" prefHeight="200.0" prefWidth="483.0"/>
+        <Button fx:id="searchButton" layoutX="439.0" layoutY="288.0" mnemonicParsing="false" onAction="#search"
+                text="search"/>
+        <Button fx:id="addButton" layoutX="89.0" layoutY="336.0" mnemonicParsing="false" onAction="#add" text="add"/>
+        <Button fx:id="deleteButton" layoutX="426.0" layoutY="336.0" mnemonicParsing="false" onAction="#delete"
+                text="delete"/>
+        <Button fx:id="returnButton" layoutX="248.0" layoutY="336.0" mnemonicParsing="false" onAction="#returnHomePage"
+                text="return"/>
+        <TextField fx:id="searchTextField" layoutX="110.0" layoutY="288.0"/>
+    </children>
+</AnchorPane>

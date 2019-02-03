@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9"
+            fx:controller="sample.controller.itemPage">
+    <children>
+        <Label fx:id="priceLabel" layoutX="388.0" layoutY="30.0" text="price :"/>
+        <TextArea fx:id="TextArea" editable="false" layoutX="336.0" layoutY="186.0" prefHeight="200.0" prefWidth="200.0"
+                  text="put some description here"/>
+        <Button fx:id="buyButton" layoutX="83.0" layoutY="238.0" mnemonicParsing="false" onAction="#jumptoPayemnt"
+                text="buy it now"/>
+        <Label fx:id="itemName" layoutX="84.0" layoutY="39.0" text="name of item"/>
+        <Button fx:id="returnButton" layoutX="87.0" layoutY="297.0" mnemonicParsing="false" onAction="#returnto"
+                text="return"/>
+        <Button fx:id="addButton" layoutX="84.0" layoutY="187.0" mnemonicParsing="false" onAction="#addtoCart"
+                text="add to shopping cart"/>
+        <Label fx:id="status" layoutX="49.0" layoutY="343.0" text="status"/>
+    </children>
+</AnchorPane>

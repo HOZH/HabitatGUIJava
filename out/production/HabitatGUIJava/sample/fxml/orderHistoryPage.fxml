@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="699.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9"
+            fx:controller="sample.controller.OrderHistoryPage">
+    <children>
+        <ListView fx:id="theListView" layoutX="33.0" layoutY="22.0" prefHeight="451.0" prefWidth="477.0"/>
+        <Button fx:id="request" layoutX="33.0" layoutY="581.0" mnemonicParsing="false" onAction="#requestReturn"
+                text="request an return"/>
+        <Button fx:id="myaccount" layoutX="213.0" layoutY="581.0" mnemonicParsing="false" onAction="#returnMyAccount"
+                text="return to my account"/>
+        <Button fx:id="truckingButton" layoutX="39.0" layoutY="495.0" mnemonicParsing="false" onAction="#truck"
+                text="see trucking number"/>
+        <Button fx:id="homepage" layoutX="420.0" layoutY="581.0" mnemonicParsing="false" onAction="#returnHomePage"
+                text="return to home page"/>
+        <TextField fx:id="trucking" editable="false" layoutX="242.0" layoutY="495.0"/>
+    </children>
+</AnchorPane>

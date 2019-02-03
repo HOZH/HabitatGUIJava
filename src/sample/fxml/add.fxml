@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="598.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9"
+            fx:controller="sample.controller.Add">
+    <children>
+        <Label layoutX="52.0" layoutY="52.0" text="id"/>
+        <Label layoutX="52.0" layoutY="134.0" text="name"/>
+        <Label layoutX="52.0" layoutY="213.0" text="price"/>
+        <Label layoutX="52.0" layoutY="282.0" text="description"/>
+        <Label layoutX="52.0" layoutY="343.0" text="amount"/>
+        <Button fx:id="addButton" layoutX="56.0" layoutY="445.0" mnemonicParsing="false" onAction="#addItem"
+                text="add"/>
+        <Button fx:id="returnButton" layoutX="339.0" layoutY="445.0" mnemonicParsing="false" onAction="#returnHomePage"
+                text="return"/>
+        <Label fx:id="status" layoutX="208.0" layoutY="517.0" text="status"/>
+        <TextField fx:id="id" layoutX="208.0" layoutY="47.0"/>
+        <TextField fx:id="name" layoutX="208.0" layoutY="129.0"/>
+        <TextField fx:id="price" layoutX="208.0" layoutY="217.0"/>
+        <TextField fx:id="description" layoutX="208.0" layoutY="286.0"/>
+        <TextField fx:id="amount" layoutX="200.0" layoutY="338.0"/>
+    </children>
+</AnchorPane>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="669.0" prefWidth="600.0"
+            xmlns="http://javafx.com/javafx/8.0.141" fx:controller="sample.controller.AddNdelete">
+    <children>
+        <Label layoutX="44.0" layoutY="111.0" text="id"/>
+        <Label layoutX="34.0" layoutY="160.0" text="name"/>
+        <Label layoutX="33.0" layoutY="269.0" text="amount"/>
+        <Label layoutX="25.0" layoutY="209.0" text="description"/>
+        <Button layoutX="29.0" layoutY="377.0" mnemonicParsing="false" text="add"/>
+        <Button layoutX="18.0" layoutY="454.0" mnemonicParsing="false" text="delete"/>
+        <Button layoutX="18.0" layoutY="519.0" mnemonicParsing="false" text="return to staff home"/>
+        <TextField layoutX="141.0" layoutY="116.0"/>
+        <TextField layoutX="151.0" layoutY="169.0"/>
+        <TextField layoutX="151.0" layoutY="226.0"/>
+        <TextField layoutX="151.0" layoutY="265.0" prefHeight="0.0" prefWidth="149.0"/>
+    </children>
+</AnchorPane>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="644.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9"
+            fx:controller="sample.controller.UserHomePage">
+    <children>
+        <Label layoutX="42.0" layoutY="103.0" prefHeight="17.0" prefWidth="61.0" text="Search"/>
+        <TextField fx:id="searchTextField" layoutX="149.0" layoutY="98.0"/>
+        <Button fx:id="myacoountButton" layoutX="413.0" layoutY="30.0" mnemonicParsing="false"
+                onAction="#gettoMyAccount" text="my account"/>
+        <ListView fx:id="theListView" layoutX="39.0" layoutY="186.0" prefHeight="399.0" prefWidth="504.0"/>
+        <Button fx:id="searchButton" layoutX="361.0" layoutY="98.0" mnemonicParsing="false" onAction="#searchbyKeyword"
+                text="search"/>
+        <Button fx:id="getInButton" layoutX="90.0" layoutY="595.0" mnemonicParsing="false" onAction="#getto"
+                text="get into item"/>
+        <Button fx:id="myCartButton" layoutX="103.0" layoutY="30.0" mnemonicParsing="false" onAction="#jumptocart"
+                text="my cart"/>
+    </children>
+</AnchorPane>
